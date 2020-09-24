@@ -60,6 +60,22 @@
 
     `BOX_REDIRECT_URI=http://localhost:8000/box/callback`      // Replace "http://localhost:8000" with Server URL
     
+    *Mail*
+    
+    `MAIL_DRIVER=smtp`
+    
+    `MAIL_HOST=smtp.gmail.com`
+    
+    `MAIL_PORT=587
+    `
+    `MAIL_USERNAME=manager.virtualdepositions@gmail.com`
+    
+    `MAIL_PASSWORD=CaptainPrice@933`
+    
+    `MAIL_FROM_ADDRESS=manager.virtualdepositions@gmail.com`
+    
+    `MAIL_FROM_NAME=Support`
+    
 4. Run
 
     `git fetch`
